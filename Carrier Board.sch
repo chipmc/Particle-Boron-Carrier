@@ -160,134 +160,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="JST-2-SMD" urn="urn:adsk.eagle:footprint:37657/1" library_version="1">
-<description>&lt;h3&gt;JST-Right Angle Male Header SMT&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 2mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/20404.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
-&lt;li&gt;JST_2MM_MALE&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-4" y1="-1" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-4.5" x2="-3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2" y1="-2" x2="3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-2" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-1.397" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="0.635" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="JST-2-SMD" urn="urn:adsk.eagle:package:38042/1" type="box" library_version="1">
-<description>JST-Right Angle Male Header SMT
-Specifications:
-Pin count: 2
-Pin pitch: 2mm
-
-Datasheet referenced for footprint
-Example device(s):
-CONN_02
-JST_2MM_MALE
-</description>
-<packageinstances>
-<packageinstance name="JST-2-SMD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="JST_2MM_MALE" urn="urn:adsk.eagle:symbol:37934/1" library_version="1">
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.302" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.302" x2="5.08" y2="1.778" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="4.064" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="4.064" y1="-2.54" x2="4.064" y2="0" width="0.254" layer="94"/>
-<wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.778" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.302" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="4.318" y2="1.778" width="0.254" layer="94"/>
-<wire x1="4.318" y1="1.778" x2="4.318" y2="3.302" width="0.254" layer="94"/>
-<wire x1="4.318" y1="3.302" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="2.032" y1="1.016" x2="3.048" y2="1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.508" x2="2.54" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="1.524" width="0.254" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
-<pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JST_2MM_MALE" urn="urn:adsk.eagle:component:38321/1" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;JST 2MM MALE RA CONNECTOR&lt;/h3&gt;
-Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries.
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8612"&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11214"&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;
-&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="JST_2MM_MALE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST-2-SMD">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-<connect gate="G$1" pin="PAD1" pad="NC1"/>
-<connect gate="G$1" pin="PAD2" pad="NC2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38042/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11443"/>
-<attribute name="SF_ID" value="PRT-08612" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Custom Components">
 <packages>
 <package name="SOT-23-5">
@@ -1124,6 +996,44 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="JST_B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="3.975" y1="-0.25" x2="-3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-3.975" y1="-0.25" x2="-3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="4.5" y1="5" x2="4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="4.5" y1="-3" x2="-4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="-3" x2="-4.5" y2="5" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="5" x2="4.5" y2="5" width="0.05" layer="39"/>
+<text x="-4.50581875" y="5.00646875" size="1.271640625" layer="25">&gt;NAME</text>
+<text x="-4.50348125" y="-4.50348125" size="1.27098125" layer="27">&gt;VALUE</text>
+<circle x="-2.083" y="-2.424" radius="0.2" width="0" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="21"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="-3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="0.5" x2="-3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="-0.25" x2="-1.75" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-0.25" x2="3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="3.975" y1="-0.25" x2="3.975" y2="0.5" width="0.2" layer="21"/>
+<smd name="1" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+</package>
+<package name="CAPC2012X100N">
+<text x="-1.71" y="-1.07" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.71" y="1.07" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.1" y1="-0.72" x2="-1.1" y2="-0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-0.72" x2="1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.708" y1="-0.983" x2="1.708" y2="-0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="-0.983" x2="-1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="1.708" y1="-0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<smd name="1" x="-0.909" y="0" dx="1.1" dy="1.47" layer="1"/>
+<smd name="2" x="0.909" y="0" dx="1.1" dy="1.47" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0805" urn="urn:adsk.eagle:package:39651/1" type="box">
@@ -1413,6 +1323,26 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <vertex x="-0.254" y="0.508"/>
 <vertex x="-0.254" y="-0.508"/>
 </polygon>
+</symbol>
+<symbol name="B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54361875" y="3.052340625" size="1.271809375" layer="95">&gt;NAME</text>
+<text x="-2.54098125" y="-7.622940625" size="1.270490625" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" length="short" direction="pas"/>
+<text x="-2.032" y="-1.016" size="1.778" layer="94">+</text>
+<text x="-2.032" y="-3.556" size="1.778" layer="94">-</text>
+</symbol>
+<symbol name="GRM21A5C2D470JW01D">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.90685625" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2104,29 +2034,49 @@ Standard 0805 ceramic capacitor</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP-47PF-" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Capacitor&lt;/b&gt;
-
-47pF variant
-
-Standard 0805 ceramic capacitor</description>
+<deviceset name="B2B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Surface Mount Top Entry Shrouded Header </description>
 <gates>
-<gate name="G$1" symbol="CAP@1" x="0" y="0"/>
+<gate name="G$1" symbol="B2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0805" package="0805@1">
+<device name="" package="JST_B2B-PH-SM4-TB(LF)(SN)">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="490-14653-1-ND" constant="no"/>
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="MPN" value="GRM21A5C2D470JW01D" constant="no"/>
-<attribute name="POPULATE" value="1" constant="no"/>
-<attribute name="URL" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21A5C2D470JW01D/4905469" constant="no"/>
-<attribute name="VALUE" value="47pF" constant="no"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 2 position 0.079 (2.00mm) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="455-1734-1-ND"/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/B2B-PH-SM4-TB(LF)(SN)/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM21A5C2D470JW01D" prefix="C">
+<description>Cap Ceramic 47pF 200V C0G 5% Pad SMD 0805 125C T/R </description>
+<gates>
+<gate name="G$1" symbol="GRM21A5C2D470JW01D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC2012X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" SMD Capacitor C0G(EIA) with Capacitance: 47pF Tol. 5%. Rated Voltage: 200Vdc "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-14653-1-ND"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GRM21A5C2D470JW01D"/>
+<attribute name="PACKAGE" value="2012 Murata"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21A5C2D470JW01D/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -3456,12 +3406,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP6" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1">
 <attribute name="POPULATE" value="0"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1" value="S2B-PH-SM4-TB(LF)(SN)">
-<attribute name="MFG" value="JST S2B-PH-SM4-TB(LF)(SN)"/>
-</part>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1" value="S2B-PH-SM4-TB(LF)(SN)">
-<attribute name="MFG" value="JST S2B-PH-SM4-TB(LF)(SN)"/>
-</part>
 <part name="F1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_HALF-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A">
 <attribute name="MPN" value="046801.5NR"/>
 </part>
@@ -3538,7 +3482,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="HOUSEPART" value="Yes"/>
 <attribute name="MPN" value="MF-CAP-0805-0.1uF"/>
 </part>
-<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1">
 <attribute name="POPULATE" value="0"/>
 </part>
@@ -3579,13 +3522,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="HOUSEPART" value="YES"/>
 <attribute name="MPN" value="MF-RES-0805-100K"/>
 </part>
-<part name="C11" library="Custom Components" deviceset="CAP-47PF-" device="0805" value="47pF">
-<attribute name="HOUSEPART" value="YES"/>
-<attribute name="MPN" value="MF-CAP-0805-0.1uF"/>
-<attribute name="POPULATE" value="1"/>
-</part>
 <part name="Q2" library="Custom Components" deviceset="BSS138" device=""/>
 <part name="U7" library="Custom Components" deviceset="MB85RC64TA" device=""/>
+<part name="J1" library="Custom Components" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
+<part name="J2" library="Custom Components" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
+<part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="C11" library="Custom Components" deviceset="GRM21A5C2D470JW01D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4243,7 +4185,7 @@ chip@mcclellands.org</text>
 <text x="86.36" y="177.8" size="2.54" layer="94" ratio="10">Particle Boron / Argon / Xenon Carrier Board - Power Control</text>
 <text x="175.26" y="10.16" size="2.54" layer="94">Chip McClelland</text>
 <text x="236.22" y="7.62" size="2.54" layer="94">v1.4</text>
-<text x="68.58" y="106.68" size="1.778" layer="94">Device TPS62291 has 
+<text x="93.98" y="116.84" size="1.778" layer="94">Device TPS62291 has 
 short circuit protection. 
 Vin is protected by F1</text>
 <text x="5.08" y="10.16" size="1.778" layer="94">Operating Instructions:
@@ -4255,7 +4197,7 @@ SW1 - Enables the two power switches and is powered by either Battery or DC-In
 
 RTC Power will be the higher or Li+ or DC-In
 </text>
-<text x="86.36" y="88.9" size="1.778" layer="94">Zener diode will clamp the voltage
+<text x="93.98" y="96.52" size="1.778" layer="94">Zener diode will clamp the voltage
 to prevent damaging the Xenon/Argon.  
 The Boron can handle up to 9V</text>
 </plain>
@@ -4342,28 +4284,17 @@ The Boron can handle up to 9V</text>
 <attribute name="MPN" x="162.56" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="POPULATE" x="162.56" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="76.2" y="96.52" smashed="yes">
-<attribute name="NAME" x="73.66" y="102.362" size="1.778" layer="95"/>
-<attribute name="MFG" x="76.2" y="96.52" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="F1" gate="G$1" x="134.62" y="76.2" smashed="yes">
 <attribute name="NAME" x="136.525" y="79.375" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="135.89" y="73.406" size="1.778" layer="96" font="vector" align="top-center"/>
 <attribute name="MPN" x="134.62" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND7" gate="1" x="55.88" y="160.02" smashed="yes">
-<attribute name="VALUE" x="53.34" y="157.48" size="1.778" layer="96"/>
-</instance>
-<instance part="J2" gate="G$1" x="58.42" y="172.72" smashed="yes">
-<attribute name="NAME" x="55.88" y="178.562" size="1.778" layer="91"/>
-<attribute name="MFG" x="58.42" y="172.72" size="1.778" layer="96" display="off"/>
+<instance part="GND7" gate="1" x="63.5" y="157.48" smashed="yes">
+<attribute name="VALUE" x="60.96" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="147.32" y="66.04" smashed="yes">
 <attribute name="NAME" x="149.86" y="67.564" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="149.86" y="64.516" size="1.016" layer="96" font="vector"/>
-</instance>
-<instance part="GND8" gate="1" x="58.42" y="81.28" smashed="yes">
-<attribute name="VALUE" x="55.88" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="V3" gate="G$1" x="231.14" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.6414" y="130.81" size="1.778" layer="95" rot="R90"/>
@@ -4402,15 +4333,26 @@ The Boron can handle up to 9V</text>
 <attribute name="NAME" x="71.12" y="88.9" size="1.778" layer="95" font="vector"/>
 <attribute name="POPULATE" x="73.66" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="D3" gate="G$1" x="63.5" y="86.36" smashed="yes">
-<attribute name="NAME" x="60.96" y="88.392" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="60.96" y="84.328" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="MPN" x="63.5" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="63.5" y="86.36" size="1.778" layer="96" display="off"/>
+<instance part="D3" gate="G$1" x="63.5" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.04" y="84.328" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="68.58" y="90.932" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="MPN" x="63.5" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATE" x="63.5" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="S1" gate="A" x="12.7" y="121.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.06685" y="127.01348125" size="1.27336875" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="6.339209375" y="127.00863125" size="1.27215" layer="96" ratio="10" rot="R270"/>
+</instance>
+<instance part="J1" gate="G$1" x="60.96" y="172.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.367659375" y="175.25638125" size="1.271809375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="58.422940625" y="177.79901875" size="1.270490625" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="78.74" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="75.687659375" y="104.13638125" size="1.271809375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="76.202940625" y="109.21901875" size="1.270490625" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="81.28" y="81.28" smashed="yes">
+<attribute name="VALUE" x="78.74" y="78.74" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4476,20 +4418,9 @@ The Boron can handle up to 9V</text>
 <pinref part="C8" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="-"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="76.2" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="91.44" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="86.36" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<junction x="58.42" y="86.36"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="-"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="58.42" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="167.64" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="167.64" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -4511,6 +4442,15 @@ The Boron can handle up to 9V</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="12.7" y1="113.03" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="81.28" y1="99.06" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="86.36" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+<junction x="81.28" y="86.36"/>
+</segment>
 </net>
 <net name="BATT-IN" class="0">
 <segment>
@@ -4520,8 +4460,8 @@ The Boron can handle up to 9V</text>
 <wire x1="60.96" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="149.86" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
 <junction x="60.96" y="149.86"/>
-<label x="63.5" y="165.1" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="+"/>
+<label x="48.26" y="165.1" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4541,15 +4481,18 @@ The Boron can handle up to 9V</text>
 <segment>
 <pinref part="U5" gate="G$1" pin="VIN"/>
 <pinref part="D2" gate="G$1" pin="ANODE"/>
-<wire x1="81.28" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="76.2" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
-<junction x="78.74" y="76.2"/>
-<pinref part="J1" gate="G$1" pin="+"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="86.36" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<junction x="78.74" y="86.36"/>
-<label x="81.28" y="83.82" size="1.778" layer="95"/>
+<wire x1="81.28" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<label x="66.04" y="76.2" size="1.778" layer="95"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="53.34" y="76.2"/>
+<wire x1="53.34" y1="86.36" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="53.34" y="86.36"/>
+<wire x1="53.34" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="93.98" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4682,9 +4625,9 @@ The Boron can handle up to 9V</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -4757,16 +4700,13 @@ https://github.com/particle-iot/app-notes/tree/master/AN023-Watchdog-Timers</tex
 <attribute name="HOUSEPART" x="203.2" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="203.2" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="190.5" y="78.74" smashed="yes">
-<attribute name="NAME" x="192.024" y="76.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="192.024" y="81.661" size="1.778" layer="96"/>
-<attribute name="MPN" x="190.5" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="HOUSEPART" x="190.5" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="190.5" y="78.74" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="Q2" gate="A" x="223.52" y="96.52" smashed="yes">
 <attribute name="NAME" x="228.6" y="101.6" size="1.016" layer="95" font="vector" rot="R180" align="bottom-right"/>
 <attribute name="VALUE" x="228.6" y="99.06" size="1.016" layer="96" font="vector"/>
+</instance>
+<instance part="C11" gate="G$1" x="190.5" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.68906875" y="78.74" size="1.77843125" layer="95" rot="R90"/>
+<attribute name="VALUE" x="195.58848125" y="78.74" size="1.78096875" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -4803,10 +4743,10 @@ https://github.com/particle-iot/app-notes/tree/master/AN023-Watchdog-Timers</tex
 <wire x1="144.78" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="71.12" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="76.2" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <junction x="190.5" y="71.12"/>
 <pinref part="Q2" gate="A" pin="SOURCE"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3V3R" class="0">
@@ -4909,8 +4849,8 @@ https://github.com/particle-iot/app-notes/tree/master/AN023-Watchdog-Timers</tex
 <net name="N$11" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="AF"/>
-<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BATT-IN" class="0">
