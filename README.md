@@ -1,4 +1,4 @@
-# Particle-Boron-Carrier-v1.5
+# Particle-Boron-Carrier-v1.6
  Updated and tested version of the carrier board.
  
  See Particle community thread for details on this board's development
