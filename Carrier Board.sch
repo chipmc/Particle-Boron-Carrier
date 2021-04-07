@@ -9,22 +9,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -33,8 +33,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -42,19 +42,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1034,6 +1034,33 @@
 <smd name="1" x="-0.909" y="0" dx="1.1" dy="1.47" layer="1"/>
 <smd name="2" x="0.909" y="0" dx="1.1" dy="1.47" layer="1"/>
 </package>
+<package name="SON50P200X300X75-9N">
+<wire x1="-1.54" y1="1.04" x2="1.54" y2="1.04" width="0.127" layer="51"/>
+<wire x1="1.54" y1="1.04" x2="1.54" y2="-1.04" width="0.127" layer="51"/>
+<wire x1="1.54" y1="-1.04" x2="-1.54" y2="-1.04" width="0.127" layer="51"/>
+<wire x1="-1.54" y1="-1.04" x2="-1.54" y2="1.04" width="0.127" layer="51"/>
+<wire x1="-1.54" y1="1.199" x2="1.54" y2="1.199" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="-1.199" x2="1.54" y2="-1.199" width="0.127" layer="21"/>
+<rectangle x1="-0.48" y1="0.075" x2="0.48" y2="0.655" layer="31"/>
+<rectangle x1="-0.48" y1="-0.655" x2="0.48" y2="-0.075" layer="31"/>
+<wire x1="-2.11" y1="1.29" x2="2.11" y2="1.29" width="0.05" layer="39"/>
+<wire x1="2.11" y1="1.29" x2="2.11" y2="-1.29" width="0.05" layer="39"/>
+<wire x1="2.11" y1="-1.29" x2="-2.11" y2="-1.29" width="0.05" layer="39"/>
+<wire x1="-2.11" y1="-1.29" x2="-2.11" y2="1.29" width="0.05" layer="39"/>
+<circle x="-2.5" y="0.8" radius="0.1" width="0.25" layer="21"/>
+<circle x="-2.5" y="0.8" radius="0.1" width="0.25" layer="51"/>
+<text x="-2.54" y="1.524" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.44" y="0.75" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="2" x="-1.44" y="0.25" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="3" x="-1.44" y="-0.25" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="4" x="-1.44" y="-0.75" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="5" x="1.44" y="-0.75" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="6" x="1.44" y="-0.25" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="7" x="1.44" y="0.25" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="8" x="1.44" y="0.75" dx="0.83" dy="0.27" layer="1" roundness="50"/>
+<smd name="9" x="0" y="0" dx="1.6" dy="1.4" layer="1" rot="R90" cream="no"/>
+<text x="-2.54" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0805" urn="urn:adsk.eagle:package:39651/1" type="box">
@@ -1592,6 +1619,21 @@ Standard ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" value="MB85RC64TA" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SON8" package="SON50P200X300X75-9N">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4 9"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3523,7 +3565,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="MF-RES-0805-100K"/>
 </part>
 <part name="Q2" library="Custom Components" deviceset="BSS138" device=""/>
-<part name="U7" library="Custom Components" deviceset="MB85RC64TA" device=""/>
+<part name="U7" library="Custom Components" deviceset="MB85RC64TA" device="SON8" value="MB85RC64TASON8"/>
 <part name="J1" library="Custom Components" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="J2" library="Custom Components" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -3535,7 +3577,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="172.72" y="7.62" size="1.778" layer="94">Chip McClelland
 chip@mcclellands.org</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v1.4</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v1.6a</text>
 <text x="147.32" y="38.1" size="1.778" layer="94">Power either with DC source or Solar Panel - JST connector
 1) External Power: 5V DC @ 2A 
 2) Solar Power: Recommend 3-5W @ 6V</text>
@@ -4184,7 +4226,7 @@ chip@mcclellands.org</text>
 <plain>
 <text x="86.36" y="177.8" size="2.54" layer="94" ratio="10">Particle Boron / Argon / Xenon Carrier Board - Power Control</text>
 <text x="175.26" y="10.16" size="2.54" layer="94">Chip McClelland</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v1.4</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v1.6a</text>
 <text x="93.98" y="116.84" size="1.778" layer="94">Device TPS62291 has 
 short circuit protection. 
 Vin is protected by F1</text>
@@ -4646,7 +4688,7 @@ This circuit combines both RTC and watchdog functionality
 <text x="66.04" y="175.26" size="2.54" layer="94" ratio="10">Particle Boron / Argon / Xenon Carrier Board - Real Time Clock</text>
 <text x="172.72" y="7.62" size="1.778" layer="94">Chip McClelland
 chip@mcclellands.org</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v1.4</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v1.6a</text>
 <text x="33.02" y="73.66" size="1.778" layer="91">RTC 3.3 Regulator
 200mA Max
 1.5uA Quiescent Current</text>
