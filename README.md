@@ -9,9 +9,11 @@ This is a carrier board for 3rd Generation Particle Devices (Boron and Argon).  
 * Connectors for IO including compatibility with Spankfun Qwiic and Adafruit Stemma (JST ST/SR)
 * Footprint for a LoRA Radio module
 
-![IMG_5598](https://user-images.githubusercontent.com/6188397/113896743-38480800-9798-11eb-91e1-d70a0c5279e2.jpeg)
+![IMG_5598](https://github.com/chipmc/Particle-Boron-Carrier/blob/main/Images/Carrier-v1-8-Top.jpg?raw=true)
 
-![IMG_5599](https://user-images.githubusercontent.com/6188397/113896760-3bdb8f00-9798-11eb-9fd7-45b0ed94a1b0.jpeg)
+![IMG_5599](https://github.com/chipmc/Particle-Boron-Carrier/blob/main/Images/Carrier-v1-8-Bottom.jpg?raw=true)
+
+
 
 Key Pin definitions for the FeatherWing Pins
  * Left Side (16 pins)
